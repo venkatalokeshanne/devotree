@@ -1,15 +1,19 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
+import coming from '/public/images/comingsoon.gif'
 
-// import Counter from '../features/counter/Counter'
-import styles from '../styles/Home.module.css'
+function Home() {
 
-const IndexPage: NextPage = () => {
   return (
-    <div className='w-10'>
-     
+    <div className='flex items-center justify-center h-screen w-screen bg-black flex-col font-mono text-white'>
+      <Head>
+        <title>Devotree</title>
+      </Head>
+    <Image src={coming} alt='Coming soon'/>
+    <h2>Devo&apos;tree&apos; is growing soon...</h2>
+    <p className='text-center'>Meanwhile know about who is creating this tree <a href='/about' className='purple'> Venkata Lokesh Anne </a></p>
     </div>
   )
 }
 
-export default IndexPage
+export default Home

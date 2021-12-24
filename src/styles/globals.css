@@ -75,3 +75,7 @@ h2 {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.fontSize {
+  font-size: 3rem;
+}
