@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 
 const IndexPage: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div className='w-10'>
       <Head>
         <title>Redux Toolkit</title>
         <link rel="icon" href="/favicon.ico" />
