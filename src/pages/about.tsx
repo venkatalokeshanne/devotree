@@ -9,7 +9,7 @@ export default function About() {
                 <img alt='venkata lokesh anne' title='Venkata Lokesh Anne' src='/images/myself.png' className='h-full' />
             </div>
             <div className='pt-64 about m-6' data-aos="zoom-in" data-aos-duration="2000">
-                <h1>about(<span className='purple fontSize' title='Venkata Lokesh Anne'>AVL</span>);</h1>
+                <h1>about(<span className='purple fontSize' title='Venkata Lokesh Anne'>AVL</span>)</h1>
                 <ul className='flex mt-5 items-center'>
                     <li className='mr-5'>
                         <a target="_blank" href='https://www.linkedin.com/in/avlokesh8/'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-labelledby="LinkedinIcoTitle" className="ico"><title id="LinkedinIcoTitle">LinkedIn logo</title><path stroke="none" d="M14.8 0H1.2C.5 0 0 .5 0 1.2v13.7c0 .6.5 1.1 1.2 1.1h13.6c.7 0 1.2-.5 1.2-1.2V1.2c0-.7-.5-1.2-1.2-1.2zM4.7 13.6H2.4V6h2.4v7.6zM3.6 5c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4V9.9c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8H6.2V6h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2z"></path></svg></a>
@@ -53,7 +53,7 @@ export default function About() {
                         WordPress, GraphQl
                     </li>
                     <li className='inline-block mt-5 md:w-1/3'>
-                        Java experianced <br />
+                        Java experienced <br />
                         Python learner
                     </li>
                 </ul>
@@ -132,22 +132,6 @@ export default function About() {
                         <span className='purple'>es-ES</span>  Español <br />
                     </li>
                 </ul>
-
-                <ul className=' text-gray-400'>
-                    <li className='mr-10 inline-block mt-5 md:w-1/3'>
-                        Spring, Hibernet<br />
-                        Struts, MySql
-                    </li>
-                    <li className='mr-10 inline-block mt-5 md:w-1/3'>
-                        Drupal<br />
-                        WordPress, GraphQl
-                    </li>
-                    <li className='inline-block mt-5 md:w-1/3'>
-                        Java experianced <br />
-                        Python learner
-                    </li>
-                </ul>
-
                 <h2 className='mt-8'>Also busy with</h2>
                 <ul className=' text-gray-400 mb-60'>
                     <li className='mr-10 inline-block mt-5 md:w-1/3'>

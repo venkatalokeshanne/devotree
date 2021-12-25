@@ -22,7 +22,7 @@ a {
 
 h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -51,6 +51,8 @@ h2 {
   color: black;
   display: flex;
   cursor: pointer;
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
 }
 
 .resume:hover {
