@@ -3,7 +3,7 @@ import Lottie from 'react-lottie'
 import * as THREE from 'three';
 import blogging from '../home/lottie/Blogging.json';
 import Growth from '../home/lottie/Growth.json';
-import Programming from '../home/lottie/Programming.json';
+import Programming from '../home/lottie/programming.json';
 import CreativeAnimation from '../home/lottie/creative.json';
 import Myself from './myself';
 import Intro from './intro';
