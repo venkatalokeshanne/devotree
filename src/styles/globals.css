@@ -87,7 +87,6 @@ h2 {
 }
 
 .scrollable {
-  margin-left: 40%;
   width: 100%;
 }
 
@@ -122,4 +121,8 @@ h2 {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #814fee; 
+}
+
+.screenW {
+  width: 99vw;
 }

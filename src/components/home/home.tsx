@@ -40,14 +40,16 @@ function Home() {
 
     return (
         <div className='screenW flex'>
-            <div className='fixed hidden animation w-2/5 md:block' data-aos="fade-right" data-aos-duration="2000">
+            <div className='fixed hidden animation w-100 md:w-2/5 md:block' data-aos="fade-right" data-aos-duration="2000">
                 <Lottie  options={animation} ></Lottie>
             </div>
-            <div className='scrollable'>
+            <div className='scrollable flex'>
+                <div className='md:w-2/5'>text</div>
+                <div className='md:w-3/5'>
                 <Myself />
                 <Intro />
                 <NewTech />
-                <Creative />
+                <Creative /></div>
             </div>
         </div>
     )
