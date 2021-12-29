@@ -10,46 +10,47 @@ import Intro from './intro';
 import NewTech from './newTech';
 import Creative from './creative';
 function Home() {
-
-    const [animation, setAnimation] = useState({ animationData: blogging })
+    const blogger = { animationData: blogging };
+    const [animation, setAnimation] = useState(null)
     useEffect(() => {
+        // setAnimation({ animationData: blogging });
         window.addEventListener('scroll', handleScroll);
-       })
-       
-       const handleScroll = () => {
-           console.log("Scroll top",  window.scrollY)
-           if(window.scrollY < 100) {
-           setAnimation({ animationData: blogging });
-           window.removeEventListener('scroll', handleScroll);
-        } else if(window.scrollY >= 300 && window.scrollY <= 400) {
+    })
+
+    const handleScroll = () => {
+        console.log("Scroll top", window.scrollY)
+        if (window.scrollY < 100) {
+            setAnimation({ animationData: blogging });
+            window.removeEventListener('scroll', handleScroll);
+        } else if (window.scrollY >= 300 && window.scrollY <= 400) {
             setAnimation({ animationData: Growth });
             window.removeEventListener('scroll', handleScroll);
-        } else if(window.scrollY >= 600 && window.scrollY <= 900) {
+        } else if (window.scrollY >= 600 && window.scrollY <= 900) {
             setAnimation({ animationData: Programming });
             window.removeEventListener('scroll', handleScroll);
-        } else if(window.scrollY >= 900 ) {
+        } else if (window.scrollY >= 900) {
             setAnimation({ animationData: CreativeAnimation });
             window.removeEventListener('scroll', handleScroll);
-        } 
-        else {
+        } else {
             window.removeEventListener('scroll', handleScroll);
             window.addEventListener('scroll', handleScroll);
         }
-        
-      }
+
+    }
 
     return (
         <div className='screenW flex'>
             <div className='fixed hidden animation w-100 md:w-2/5 md:block' data-aos="fade-right" data-aos-duration="2000">
-                <Lottie  options={animation} ></Lottie>
+                <Lottie options={animation === null ? blogger : animation} ></Lottie>
             </div>
             <div className='scrollable flex'>
                 <div className='md:w-2/5'>text</div>
                 <div className='md:w-3/5'>
-                <Myself />
-                <Intro />
-                <NewTech />
-                <Creative /></div>
+                    <Myself />
+                    <Intro />
+                    <NewTech />
+                    <Creative />
+                </div>
             </div>
         </div>
     )
