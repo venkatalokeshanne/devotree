@@ -13,7 +13,10 @@
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.0"
+    "react-lottie": "^1.2.3",
+    "react-redux": "^7.2.0",
+    "react-waypoint": "^10.1.0",
+    "three": "^0.136.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.0.0",
@@ -24,7 +27,9 @@
     "@types/node": "^16.9.1",
     "@types/react": "^17.0.21",
     "@types/react-dom": "^17.0.9",
+    "@types/react-lottie": "^1.2.6",
     "@types/react-redux": "^7.1.18",
+    "@types/three": "^0.135.0",
     "autoprefixer": "^10.4.0",
     "jest": "^27.2.0",
     "jest-css-modules-transform": "^4.2.0",
