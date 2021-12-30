@@ -17,8 +17,8 @@ function Layout() {
                 <h2 className="inline-block mr-10 hover:text-purple-700"><Link href="/work">.work()</Link></h2>
                 <h2 className="inline-block mr-10 hover:text-purple-700"><Link href="/about">.about()</Link></h2>
                 <h2 className="inline-block mr-10 hover:text-purple-700"><Link href="/#contact">.contact()</Link></h2>
-                <a href='https://www.linkedin.com/in/avlokesh8/' target='_blank'> <FontAwesomeIcon icon={faLinkedin} className="mr-2" style={{color: "white", height: "2rem", width: "2rem"}}/></a>
-            <a href='https://github.com/venkatalokeshanne' target='_blank'> <FontAwesomeIcon icon={faGithub} className='hover:' style={{color: "white", height: "2rem", width: "2rem"}}/></a>
+                <a className="inline-block" href='https://www.linkedin.com/in/avlokesh8/' target='_blank'> <FontAwesomeIcon icon={faLinkedin} className="mr-2" style={{color: "white", height: "2rem", width: "2rem"}}/></a>
+                <a className="inline-block" href='https://github.com/venkatalokeshanne' target='_blank'> <FontAwesomeIcon icon={faGithub} className='hover:' style={{color: "white", height: "2rem", width: "2rem"}}/></a>
             
             </div>
         </div>
