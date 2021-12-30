@@ -6,6 +6,7 @@ import type { AppProps } from 'next/app'
 import aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
+import Layout from '../components/home/layout';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
 
@@ -14,7 +15,10 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   })
   return (
       // <Provider store={store}>
+      <>
+        <Layout />
         <Component {...pageProps} />
+        </>
       // </Provider>
   )
 }

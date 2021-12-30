@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function About() {
 
     return (
-        <div className='h-screen w-screen flex'>
+        <div className='h-screen w-screen flex screenW'>
             <div className='hidden h-full md:block' data-aos="zoom-in" data-aos-duration="3000">
                 <img alt='venkata lokesh anne' title='Venkata Lokesh Anne' src='/images/myself.png' className='h-full' />
             </div>

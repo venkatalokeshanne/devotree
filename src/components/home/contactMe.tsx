@@ -1,8 +1,8 @@
 import FlipCard from './flipCard';
 function ContactMe() {
     return (
-        <div className='pt-32 md:pt-64 mx-auto md:w-3/5 pb-64' id="testing">
-            <h2 className='purple'>Contact me</h2>
+        <div className='pt-32 md:pt-64 mx-auto md:w-3/5 pb-64'>
+            <h2 className='purple' id="contact">Contact me</h2>
             <p className='text-gray-400 mt-5 mb-5' data-aos="fade-right" data-aos-duration="2000">Hello, Bonjour, నమస్కారం <br /> Overall you know me! <br /> You know, <br />What i DO, <br />What i LIKE. <br />SO, What are you waiting for ? Send me message! Let me know "<span className='purple'>Who you are</span>"   
             </p>
             <form className="membership-form webform" action="https://formsubmit.co/annevlokesh@gmail.com" method="POST">
