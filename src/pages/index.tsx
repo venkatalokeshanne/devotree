@@ -9,7 +9,7 @@ function Devotree() {
   return (
     <>
     <Head>
-        <title>Devotree</title>
+        <title>Devotree - Venkata Lokesh Anne</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta charSet="UTF-8"/>
         <meta name="description" content="Venkata Lokesh Anne, Javascript Front end developer, This is my portifolio with intresting user interface. This website contains infomation about my skills and my professional work experience "/>
