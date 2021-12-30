@@ -8,8 +8,17 @@ function Devotree() {
 
   return (
     <>
-    <script src="./noframework.waypoints.min.js"></script>
-    <Home /></>
+    <Head>
+        <title>Devotree</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta charSet="UTF-8"/>
+        <meta name="description" content="Venkata Lokesh Anne, Javascript Front end developer, This is my portifolio with intresting user interface. This website contains infomation about my skills and my professional work experience "/>
+        <meta name="keywords" content="devotree, developer, Blogging, Portifolio, Javascript, venkata, venkata lokesh, venkata lokesh anne, Reactjs"/>
+        <meta name="author" content="Venkata Lokesh Anne"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </Head>
+    <Home />
+    </>
   )
 }
 
