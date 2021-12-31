@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className='h-screen w-screen flex screenW'>
             <div className='hidden h-full md:block' data-aos="zoom-in" data-aos-duration="3000">
-                <img alt='venkata lokesh anne' title='Venkata Lokesh Anne' src='/images/myself.png' className='h-full' />
+                <img alt='venkata lokesh anne' title='Venkata Lokesh Anne' src='/images/myself.webp' className='h-full' />
             </div>
             <div className='pt-64 about m-6' data-aos="zoom-in" data-aos-duration="2000">
                 <h1>about(<span className='purple fontSize' title='Venkata Lokesh Anne'>AVL</span>)</h1>
@@ -19,7 +19,7 @@ export default function About() {
                     </li>
                     <li className='text-gray-400 flex items-center'>
                         Download my
-                        <a target="_blank" title="Download resume" href='/venkata-lokesh-resume.pdf' className='resume'>resume <img src='/images/downloadIcon.png' className='ico ml-2'></img></a>
+                        <a target="_blank" title="Download resume" href='/venkata-lokesh-resume.pdf' className='resume'>resume <img src='/images/downloadIcon.webp' className='ico ml-2'></img></a>
                     </li>
                 </ul>
                 <p className='purple mt-5'>I am a JavaScript frontend developer, Reacter and Learner.<br />From India, Based in Paris</p>

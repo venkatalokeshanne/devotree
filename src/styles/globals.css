@@ -129,6 +129,10 @@ h2 {
   z-index: -1;
 }
 
+.back {
+  height: 100%;
+  width: 100%;
+}
 
 .card {
   position: relative;
@@ -191,3 +195,5 @@ h2 {
 .color-light-black {
   background-color: black;
 }
+
+

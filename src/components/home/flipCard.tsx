@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import SingleCard from './SingleCard';
 
 const cardImages = [
-  { "src": "/images/cricket.jpg", matched: false },
-  { "src": "/images/cooking.jpg", matched: false },
-  { "src": "/images/music.jpg", matched: false },
-  { "src": "/images/javascript.png", matched: false },
-  { "src": "/images/travelling.jpg", matched: false },
-  { "src": "/images/creativity.jpeg", matched: false },
+  { "src": "/images/cricket.webp", matched: false },
+  { "src": "/images/cooking.webp", matched: false },
+  { "src": "/images/music.webp", matched: false },
+  { "src": "/images/javascript.webp", matched: false },
+  { "src": "/images/travelling.webp", matched: false },
+  { "src": "/images/creativity.webp", matched: false },
 ]
 
 function FlipCard() {

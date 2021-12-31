@@ -12,7 +12,7 @@
         <div className="card" data-aos="fade-right" data-aos-duration="2000">
             <div className={flipped ? "flipped" : ""}>
                 <img className="front h-full w-full" src={card.src} alt="card front" />
-                <img className="back" src="./images/i_me_myself.png" onClick={handleClick} alt="cover" />
+                <img className="back" src="./images/i_me_myself.webp" onClick={handleClick} alt="cover" />
             </div>
         </div>
     )
