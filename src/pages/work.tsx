@@ -5,20 +5,20 @@ function Work() {
         <div className="flex flex-col pt-64 ml-5 mr-5 screenW">
             <div className="flex items-center justify-center ">
                 <div className="w-3/12 md:block hidden">
-                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.png"></img>
-                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.png"></img>
-                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.png"></img><br />
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/webPackLogo.png"></img><br />
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/aws-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/animate-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.png"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/webPackLogo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/aws-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/animate-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.webp"></img>
                 </div>
                 <div>
                     <h2 className="purple text-center">Javascript FrontEnd Developer</h2>
                     <div className="text-center">
-                        <img className="image inline-block w-10 mr-3" src="/images/artysium.png"></img>
+                        <img className="image inline-block w-10 mr-3" src="/images/artysium.webp"></img>
                         <p className="text-white text-center inline-block">@Artysium</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">2021 - now</p>
                     <ul className="text-gray-400 ">
@@ -46,7 +46,7 @@ function Work() {
                 <div className="md:mr-20">
                     <h2 className="purple text-center">Javascript Developer</h2>
                     <div className="text-center">
-                        <img className="image inline-block w-10 mr-3" src="/images/ITSS.png"></img>
+                        <img className="image inline-block w-10 mr-3" src="/images/ITSS.webp"></img>
                         <p className="text-white text-center inline-block">@ITSS</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">2020 - 2021</p>
                     <ul className="text-gray-400 ">
@@ -63,34 +63,34 @@ function Work() {
                     </ul>
                 </div>
                 <div className="w-3/12 md:block hidden">
-                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.png"></img>
-                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.png"></img>
-                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.png"></img><br />
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/java-logo.png"></img><br />
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/aws-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/animate-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.png"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/java-logo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/aws-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/animate-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.webp"></img>
                 </div>
             </div>
 
             <div className="flex items-center justify-center mt-64">
             <div className="w-3/12 md:block hidden">
-                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.png"></img>
-                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.png"></img>
-                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.png"></img><br />
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/webPackLogo.png"></img><br />
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/aws-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/animate-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.png"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/webPackLogo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/aws-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/animate-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.webp"></img>
                 </div>
                 <div>
                     <h2 className="purple text-center">Research and Innovation</h2>
                     <div className="text-center">
-                        <img className="image inline-block w-10 mr-3" src="/images/quadient.png"></img>
+                        <img className="image inline-block w-10 mr-3" src="/images/quadient.webp"></img>
                         <p className="text-white text-center inline-block">@Quadient Shipping</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">2019 - 2020</p>
                     <ul className="text-gray-400 ">
@@ -118,7 +118,7 @@ function Work() {
                 <div className="md:mr-20">
                     <h2 className="purple text-center">FullStack Developer</h2>
                     <div className="text-center">
-                        <img className="image inline-block w-10 mr-3" src="/images/GaitView.png"></img>
+                        <img className="image inline-block w-10 mr-3" src="/images/GaitView.webp"></img>
                         <p className="text-white text-center inline-block">@Gait View Technophiles Private Limited</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">2017 - 2019</p>
                     <ul className="text-gray-400 ">
@@ -135,15 +135,15 @@ function Work() {
                     </ul>
                 </div>
                 <div className="w-3/12 md:block hidden">
-                <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/java-logo.png"></img>
-                <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/spring-logo.png"></img>
-                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.png"></img><br />
-                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.png"></img>
-                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.png"></img><br />
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/webPackLogo.png"></img>
-                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.png"></img>
+                <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/java-logo.webp"></img>
+                <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/spring-logo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.webp"></img><br />
+                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/webPackLogo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.webp"></img>
                 </div>
             </div>
         </div>

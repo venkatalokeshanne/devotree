@@ -1,10 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMusic, faCode, faClock } from "@fortawesome/free-solid-svg-icons"
+import { faMusic, faCode, faClock } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from 'react-i18next'
+
 
 function MadeWith() {
+    const { t } = useTranslation('home')
+
     return (
         <div className='pt-32 md:pt-64 mx-auto md:w-3/5' id="testing">
-            <h2 className='purple'>// Made with</h2>
+            <h2 className='purple'>{t('madeWith')}</h2>
             <div className="inline-block">
                 <ul className="text-gray-400 mt-5 mr-20">
                 <FontAwesomeIcon icon={faCode} style={{color: "white", height: "2rem", width: "2rem"}} />

@@ -7,8 +7,9 @@ import aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import Layout from '../components/home/layout';
+import { appWithTranslation } from 'next-i18next';
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
     aos.init();
@@ -22,3 +23,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       // </Provider>
   )
 }
+
+
+export default appWithTranslation(MyApp);

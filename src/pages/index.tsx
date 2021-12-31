@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Home from '../components/home/home'
 import Myself from '../components/home/myself'
 import coming from '/public/images/comingsoon.gif'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import nextI18NextConfig from '../../il8n.config';
 
 function Devotree() {
 
@@ -23,3 +25,9 @@ function Devotree() {
 }
 
 export default Devotree
+
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...await serverSideTranslations(locale, ['home'], nextI18NextConfig),
+  },
+})

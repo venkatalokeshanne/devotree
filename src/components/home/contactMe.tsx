@@ -1,9 +1,12 @@
-import FlipCard from './flipCard';
+import { useTranslation } from 'react-i18next'
+
 function ContactMe() {
+    const { t } = useTranslation('home')
+
     return (
         <div className='pt-32 md:pt-64 mx-auto md:w-3/5 pb-64'>
-            <h2 className='purple' id="contact">Contact me</h2>
-            <p className='text-gray-400 mt-5 mb-5' data-aos="fade-right" data-aos-duration="2000">Hello, Bonjour, నమస్కారం <br /> Overall you know me! <br /> You know, <br />What i DO, <br />What i LIKE. <br />SO, What are you waiting for ? Send me message! Let me know "<span className='purple'>Who you are</span>"   
+            <h2 className='purple' id="contact">{t('contact')}</h2>
+            <p className='text-gray-400 mt-5 mb-5' data-aos="fade-right" data-aos-duration="2000">Hello, Bonjour, నమస్కారం <br /> {t('contact.overall')} <br /> {t('contact.youKnow')} <br />{t('contact.whatIdo')} <br />{t('contact.whatILike')} <br />{t('contact.waiting')}"<span className='purple'>{t('contact.whoAreYou')}</span>"   
             </p>
             <form className="membership-form webform" action="https://formsubmit.co/annevlokesh@gmail.com" method="POST">
                 <div className="form-group">
