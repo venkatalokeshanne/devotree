@@ -1,6 +1,10 @@
 
-function Work() {
+import { useTranslation } from 'react-i18next'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import nextI18NextConfig from '../../il8n.config';
 
+function Work() {
+    const { t } = useTranslation('home')
     return (
         <div className="flex flex-col pt-64 ml-5 mr-5 screenW">
             <div className="flex items-center justify-center ">
@@ -22,21 +26,21 @@ function Work() {
                         <p className="text-white text-center inline-block">@Artysium</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">2021 - now</p>
                     <ul className="text-gray-400 ">
-                        <p className="text-center text-white  pb-5">Tools (React, Redux, Saga, Javascript, Animate, HTML, CSS, AWS)</p>
+                        <p className="text-center text-white  pb-5">{t('work.artysium.tools')}</p>
                         <li>
-                            - Using redux state management library and Saga middleware
+                        {t('work.artysium.one')}
                         </li>
                         <li>
-                            - Create web based Virtual tour with high level experience for the users from luxury brands.
+                        {t('work.artysium.two')}
                         </li>
                         <li>
-                            - Implement Structured, trustable, reusable, scalable, Test driven web based user experience
+                        {t('work.artysium.three')}
                         </li>
                         <li>
-                            - Integrate web tour with ecommerce client API
+                        {t('work.artysium.four')}
                         </li>
                         <li>
-                            - Write tests using react-testing-library, Jest
+                        {t('work.artysium.five')}
                         </li>
                     </ul>
                 </div>
@@ -50,15 +54,15 @@ function Work() {
                         <p className="text-white text-center inline-block">@ITSS</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">2020 - 2021</p>
                     <ul className="text-gray-400 ">
-                        <p className="text-center text-white  pb-5">Tools (Java, React, Redux, Saga, Javascript, Animate, HTML, CSS, AWS)</p>
+                        <p className="text-center text-white  pb-5">{t('work.itss.tools')}</p>
                         <li>
-                            - Involved in development of SOLIS from scratch to deployment <br/>(an offline react based application for the client UpGroup ), PWA, serviceWorker,Indexedb.
+                        {t('work.itss.one')} <br/>{t('work.itss.two')}
                         </li>
                         <li>
-                            -  Bugs fix in SSO connection with CAS (Central Authentication Service).
+                        {t('work.itss.three')}
                         </li>
                         <li>
-                            -  Integration of IJBOX with their clients using Java
+                        {t('work.itss.four')}
                         </li>
                     </ul>
                 </div>
@@ -94,21 +98,21 @@ function Work() {
                         <p className="text-white text-center inline-block">@Quadient Shipping</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">2019 - 2020</p>
                     <ul className="text-gray-400 ">
-                        <p className="text-center text-white  pb-5">Tools (Java, React, Redux, Javascript, HTML, CSS, AWS)</p>
+                        <p className="text-center text-white  pb-5">{t('work.quadient.tools')}</p>
                         <li>
-                            -  Space optimization
+                        {t('work.quadient.one')}
                         </li>
                         <li>
-                            - Optimize positioning of order using LAFF ALORITHM to minimize the parcel volume/shipping costs
+                        {t('work.quadient.two')}
                         </li>
                         <li>
-                            - Optimize parcels position in a pallet
+                        {t('work.quadient.three')}
                         </li>
                         <li>
-                            - Optimize parcels position in a truck
+                        {t('work.quadient.four')}
                         </li>
                         <li>
-                            -  Sort parcels before we create the pallet
+                        {t('work.quadient.five')}
                         </li>
                     </ul>
                 </div>
@@ -122,15 +126,15 @@ function Work() {
                         <p className="text-white text-center inline-block">@Gait View Technophiles Private Limited</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">2017 - 2019</p>
                     <ul className="text-gray-400 ">
-                        <p className="text-center text-white  pb-5">Tools (React, Redux, Saga, Javascript, Animate, HTML, CSS, AWS)</p>
+                        <p className="text-center text-white  pb-5">{t('work.gaitview.tools')}</p>
                         <li>
-                            -  Participation in the implementation of the school management system
+                        {t('work.gaitview.one')}
                         </li>
                         <li>
-                            - Implement business logic and create dynamic web pages with JSP, JavaScript, <br/> and JQuery to integrate validations and client-side features.
+                        {t('work.gaitview.two')}<br/> {t('work.gaitview.three')}
                         </li>
                         <li>
-                            - Participation in the implementation of the academic & payroll modules for <br/> registration and tuition fees for students.
+                        {t('work.gaitview.four')} <br/> {t('work.gaitview.five')}
                         </li>
                     </ul>
                 </div>
@@ -151,3 +155,9 @@ function Work() {
 }
 
 export default Work;
+
+export const getStaticProps = async ({ locale }) => ({
+    props: {
+      ...await serverSideTranslations(locale, ['home'], nextI18NextConfig),
+    },
+  })

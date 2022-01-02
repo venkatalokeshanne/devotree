@@ -24,7 +24,7 @@ function MadeWith() {
                 <FontAwesomeIcon icon={faClock} style={{color: "white", height: "2rem", width: "2rem"}} />
                     <li>54 files</li>
                     <li>12MB</li>
-                    <li>+100 of thinking</li>
+                    <li>+100 hours of thinking</li>
                     <li>+56 hours of code</li>
                     <li>+30 bananas</li>
                     <li>+20 liters carrot juice</li>

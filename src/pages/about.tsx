@@ -1,7 +1,12 @@
 import Image from 'next/image';
-// import venkata from '/images/myself.png'
+import { useTranslation } from 'react-i18next'
+import { useRouter } from 'next/router'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import nextI18NextConfig from '../../il8n.config';
 
 export default function About() {
+    const { t } = useTranslation('home')
+    const router = useRouter()
 
     return (
         <div className='h-screen w-screen flex screenW'>
@@ -18,12 +23,12 @@ export default function About() {
                         <a target="_blank" href='https://github.com/venkatalokeshanne'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-labelledby="GithubIcoTitle" className="ico"><title id="GithubIcoTitle">GitHub logo</title><path stroke="none" fillRule="evenodd" d="M8 0C3.6 0 0 3.6 0 8c0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1.1-2.7-1.1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6 0 1.3-.1 2-.1s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.3.6.8.6 1.5v2.2c0 .2.1.5.6.4C13.7 14.5 16 11.5 16 8c0-4.4-3.6-8-8-8z" clipRule="evenodd"></path></svg></a>
                     </li>
                     <li className='text-gray-400 flex items-center'>
-                        Download my
-                        <a target="_blank" title="Download resume" href='/venkata-lokesh-resume.pdf' className='resume'>resume <img src='/images/downloadIcon.webp' className='ico ml-2'></img></a>
+                        {t('download')} {router.locale === 'en' ? 'CV in english' : 'CV en français'}
+                        <a target="_blank" title="Download resume" href={router.locale === 'en' ? '/venkata-lokesh-resume-en.pdf' : '/venkata-lokesh-resume-fr.pdf'} className='resume'>resume <img src='/images/downloadIcon.webp' className='ico ml-2'></img></a>
                     </li>
                 </ul>
-                <p className='purple mt-5'>I am a JavaScript frontend developer, Reacter and Learner.<br />From India, Based in Paris</p>
-                <p className='text-gray-400 mt-5'>// 2+ years of experience</p>
+                <p className='purple mt-5'>{t('about')}<br /></p>
+                <p className='text-gray-400 mt-5'>// 2+ {t('about.exp')}</p>
                 <h2 className='mt-8'>Main Skills</h2>
                 <ul className=' text-gray-400'>
                     <li className='mr-10 inline-block mt-5 md:w-1/3'>
@@ -148,3 +153,9 @@ export default function About() {
         </div>
     )
 }
+
+export const getStaticProps = async ({ locale }) => ({
+    props: {
+      ...await serverSideTranslations(locale, ['home'], nextI18NextConfig),
+    },
+  })
