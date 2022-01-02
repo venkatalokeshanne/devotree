@@ -196,4 +196,17 @@ h2 {
   background-color: black;
 }
 
+.dot {
+  color: white;
+  border: 4px solid;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.menu-mobile {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 86%;
+  z-index: 9999;
+}
 
