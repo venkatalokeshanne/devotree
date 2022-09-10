@@ -21,13 +21,18 @@ function Devotree() {
         <meta name="google-site-verification" content="Ta8veGgn9iC9_zrWH0pjvk8FleL36grNBqtiXrv-VhY" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216111271-1">
         </script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-216111271-1');
-        </script>
+        <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-216111271-1', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
     </Head>
     <Home />
     </>
