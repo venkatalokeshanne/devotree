@@ -7,7 +7,42 @@ function Work() {
     const { t } = useTranslation('home')
     return (
         <div className="flex flex-col pt-64 ml-5 mr-5 screenW">
-            <div className="flex items-center justify-center ">
+
+<div className="flex items-center justify-center ">
+                <div>
+                    <h2 className="purple text-center">Javascript FrontEnd Developer</h2>
+                    <div className="text-center">
+                        <img className="image inline-block w-10 mr-3" src="/images/meritis.webp"></img>
+                        <p className="text-white text-center inline-block">@Meritis (Permanent)</p></div>
+                    <p className="text-gray-400 text-center pt-5 pb-5">March'22 - now </p>
+                    <div>
+                        <img className="image inline-block w-10 mr-3" src="/images/cacib.webp"></img>
+                        <p className="text-white  inline-block">@Credit Agricole (CACIB) - Consultant</p></div>
+                    <p className="text-gray-400 text-center pt-5 pb-5">March'22 - now</p>
+                    <ul className="text-gray-400 ">
+                        <p className="text-center text-white  pb-5">{t('work.artysium.tools')}</p>
+                        <li>
+                        {t('work.meritis.one')}
+                        </li>
+                        <li>
+                        {t('work.meritis.two')}
+                        </li>
+                        <li>
+                        {t('work.meritis.three')}
+                        </li>
+                    </ul>
+                </div>
+                <div className="w-3/12 md:block hidden">
+                    <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/react-logo.webp"></img>
+                    <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/html-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/css-logo.webp"></img>
+                    <img className="image inline-block w-20 mt-10 mr-10" src="/images/webPackLogo.webp"></img><br />
+                    <img className="image inline-block w-20 mt-10 mr-10 text-center" src="/images/git-logo.webp"></img>
+                </div>
+            </div>
+            <div className="flex items-center justify-center mt-64 ">
                 <div className="w-3/12 md:block hidden">
                     <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.webp"></img>
                     <img className="image inline-block w-20 mr-10" src="/images/react-logo.webp"></img>
@@ -24,7 +59,7 @@ function Work() {
                     <div className="text-center">
                         <img className="image inline-block w-10 mr-3" src="/images/artysium.webp"></img>
                         <p className="text-white text-center inline-block">@Artysium</p></div>
-                    <p className="text-gray-400 text-center pt-5 pb-5">2021 - now</p>
+                    <p className="text-gray-400 text-center pt-5 pb-5">2021 - March'22</p>
                     <ul className="text-gray-400 ">
                         <p className="text-center text-white  pb-5">{t('work.artysium.tools')}</p>
                         <li>
@@ -80,7 +115,7 @@ function Work() {
             </div>
 
             <div className="flex items-center justify-center mt-64">
-            <div className="w-3/12 md:block hidden">
+            <div className="w-5/12 md:block hidden">
                     <img className="image inline-block w-20 mr-10" src="/images/javascriptLogo.webp"></img>
                     <img className="image inline-block w-20 mr-10" src="/images/react-logo.webp"></img>
                     <img className="image inline-block w-20 mr-10" src="/images/reduxLogo.webp"></img><br />
