@@ -17,7 +17,7 @@ function Work() {
                     <p className="text-gray-400 text-center pt-5 pb-5">March'22 - now </p>
                     <div>
                         <img className="image inline-block w-10 mr-3" src="/images/cacib.webp"></img>
-                        <p className="text-white  inline-block">@Credit Agricole (CACIB) - Consultant</p></div>
+                        <p className="text-white  inline-block">@Credit Agricole (CACIB) - Client</p></div>
                     <p className="text-gray-400 text-center pt-5 pb-5">March'22 - now</p>
                     <ul className="text-gray-400 ">
                         <p className="text-center text-white  pb-5">{t('work.artysium.tools')}</p>
